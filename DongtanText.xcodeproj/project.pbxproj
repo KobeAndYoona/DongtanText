@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A905AC41D829C0400EC5C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AC31D829C0400EC5C5D /* main.m */; };
+		2A905AC71D829C0400EC5C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AC61D829C0400EC5C5D /* AppDelegate.m */; };
+		2A905ACA1D829C0400EC5C5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AC91D829C0400EC5C5D /* ViewController.m */; };
+		2A905ACD1D829C0400EC5C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A905ACB1D829C0400EC5C5D /* Main.storyboard */; };
+		2A905ACF1D829C0400EC5C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A905ACE1D829C0400EC5C5D /* Assets.xcassets */; };
+		2A905AD21D829C0400EC5C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A905AD01D829C0400EC5C5D /* LaunchScreen.storyboard */; };
+		2A905ADD1D829C0400EC5C5D /* DongtanTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905ADC1D829C0400EC5C5D /* DongtanTextTests.m */; };
+		2A905AE81D829C0400EC5C5D /* DongtanTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AE71D829C0400EC5C5D /* DongtanTextUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A905AD91D829C0400EC5C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A905AB71D829C0400EC5C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A905ABE1D829C0400EC5C5D;
+			remoteInfo = DongtanText;
+		};
+		2A905AE41D829C0400EC5C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A905AB71D829C0400EC5C5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A905ABE1D829C0400EC5C5D;
+			remoteInfo = DongtanText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A905ABF1D829C0400EC5C5D /* DongtanText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DongtanText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A905AC31D829C0400EC5C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A905AC51D829C0400EC5C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A905AC61D829C0400EC5C5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A905AC81D829C0400EC5C5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A905AC91D829C0400EC5C5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A905ACC1D829C0400EC5C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A905ACE1D829C0400EC5C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A905AD11D829C0400EC5C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A905AD31D829C0400EC5C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A905AD81D829C0400EC5C5D /* DongtanTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongtanTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A905ADC1D829C0400EC5C5D /* DongtanTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongtanTextTests.m; sourceTree = "<group>"; };
+		2A905ADE1D829C0400EC5C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A905AE31D829C0400EC5C5D /* DongtanTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongtanTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A905AE71D829C0400EC5C5D /* DongtanTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongtanTextUITests.m; sourceTree = "<group>"; };
+		2A905AE91D829C0400EC5C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A905ABC1D829C0400EC5C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A905AD51D829C0400EC5C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A905AE01D829C0400EC5C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A905AB61D829C0400EC5C5D = {
+			isa = PBXGroup;
+			children = (
+				2A905AC11D829C0400EC5C5D /* DongtanText */,
+				2A905ADB1D829C0400EC5C5D /* DongtanTextTests */,
+				2A905AE61D829C0400EC5C5D /* DongtanTextUITests */,
+				2A905AC01D829C0400EC5C5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A905AC01D829C0400EC5C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A905ABF1D829C0400EC5C5D /* DongtanText.app */,
+				2A905AD81D829C0400EC5C5D /* DongtanTextTests.xctest */,
+				2A905AE31D829C0400EC5C5D /* DongtanTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A905AC11D829C0400EC5C5D /* DongtanText */ = {
+			isa = PBXGroup;
+			children = (
+				2A905AC51D829C0400EC5C5D /* AppDelegate.h */,
+				2A905AC61D829C0400EC5C5D /* AppDelegate.m */,
+				2A905AC81D829C0400EC5C5D /* ViewController.h */,
+				2A905AC91D829C0400EC5C5D /* ViewController.m */,
+				2A905ACB1D829C0400EC5C5D /* Main.storyboard */,
+				2A905ACE1D829C0400EC5C5D /* Assets.xcassets */,
+				2A905AD01D829C0400EC5C5D /* LaunchScreen.storyboard */,
+				2A905AD31D829C0400EC5C5D /* Info.plist */,
+				2A905AC21D829C0400EC5C5D /* Supporting Files */,
+			);
+			path = DongtanText;
+			sourceTree = "<group>";
+		};
+		2A905AC21D829C0400EC5C5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A905AC31D829C0400EC5C5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A905ADB1D829C0400EC5C5D /* DongtanTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A905ADC1D829C0400EC5C5D /* DongtanTextTests.m */,
+				2A905ADE1D829C0400EC5C5D /* Info.plist */,
+			);
+			path = DongtanTextTests;
+			sourceTree = "<group>";
+		};
+		2A905AE61D829C0400EC5C5D /* DongtanTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A905AE71D829C0400EC5C5D /* DongtanTextUITests.m */,
+				2A905AE91D829C0400EC5C5D /* Info.plist */,
+			);
+			path = DongtanTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A905ABE1D829C0400EC5C5D /* DongtanText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A905AEC1D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanText" */;
+			buildPhases = (
+				2A905ABB1D829C0400EC5C5D /* Sources */,
+				2A905ABC1D829C0400EC5C5D /* Frameworks */,
+				2A905ABD1D829C0400EC5C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DongtanText;
+			productName = DongtanText;
+			productReference = 2A905ABF1D829C0400EC5C5D /* DongtanText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A905AD71D829C0400EC5C5D /* DongtanTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A905AEF1D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanTextTests" */;
+			buildPhases = (
+				2A905AD41D829C0400EC5C5D /* Sources */,
+				2A905AD51D829C0400EC5C5D /* Frameworks */,
+				2A905AD61D829C0400EC5C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A905ADA1D829C0400EC5C5D /* PBXTargetDependency */,
+			);
+			name = DongtanTextTests;
+			productName = DongtanTextTests;
+			productReference = 2A905AD81D829C0400EC5C5D /* DongtanTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A905AE21D829C0400EC5C5D /* DongtanTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A905AF21D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanTextUITests" */;
+			buildPhases = (
+				2A905ADF1D829C0400EC5C5D /* Sources */,
+				2A905AE01D829C0400EC5C5D /* Frameworks */,
+				2A905AE11D829C0400EC5C5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A905AE51D829C0400EC5C5D /* PBXTargetDependency */,
+			);
+			name = DongtanTextUITests;
+			productName = DongtanTextUITests;
+			productReference = 2A905AE31D829C0400EC5C5D /* DongtanTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A905AB71D829C0400EC5C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangheng;
+				TargetAttributes = {
+					2A905ABE1D829C0400EC5C5D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2A905AD71D829C0400EC5C5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A905ABE1D829C0400EC5C5D;
+					};
+					2A905AE21D829C0400EC5C5D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2A905ABE1D829C0400EC5C5D;
+					};
+				};
+			};
+			buildConfigurationList = 2A905ABA1D829C0400EC5C5D /* Build configuration list for PBXProject "DongtanText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A905AB61D829C0400EC5C5D;
+			productRefGroup = 2A905AC01D829C0400EC5C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A905ABE1D829C0400EC5C5D /* DongtanText */,
+				2A905AD71D829C0400EC5C5D /* DongtanTextTests */,
+				2A905AE21D829C0400EC5C5D /* DongtanTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A905ABD1D829C0400EC5C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A905AD21D829C0400EC5C5D /* LaunchScreen.storyboard in Resources */,
+				2A905ACF1D829C0400EC5C5D /* Assets.xcassets in Resources */,
+				2A905ACD1D829C0400EC5C5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A905AD61D829C0400EC5C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A905AE11D829C0400EC5C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A905ABB1D829C0400EC5C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A905ACA1D829C0400EC5C5D /* ViewController.m in Sources */,
+				2A905AC71D829C0400EC5C5D /* AppDelegate.m in Sources */,
+				2A905AC41D829C0400EC5C5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A905AD41D829C0400EC5C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A905ADD1D829C0400EC5C5D /* DongtanTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A905ADF1D829C0400EC5C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A905AE81D829C0400EC5C5D /* DongtanTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A905ADA1D829C0400EC5C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A905ABE1D829C0400EC5C5D /* DongtanText */;
+			targetProxy = 2A905AD91D829C0400EC5C5D /* PBXContainerItemProxy */;
+		};
+		2A905AE51D829C0400EC5C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A905ABE1D829C0400EC5C5D /* DongtanText */;
+			targetProxy = 2A905AE41D829C0400EC5C5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A905ACB1D829C0400EC5C5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A905ACC1D829C0400EC5C5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A905AD01D829C0400EC5C5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A905AD11D829C0400EC5C5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A905AEA1D829C0400EC5C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A905AEB1D829C0400EC5C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A905AED1D829C0400EC5C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DongtanText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A905AEE1D829C0400EC5C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DongtanText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A905AF01D829C0400EC5C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DongtanTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongtanText.app/DongtanText";
+			};
+			name = Debug;
+		};
+		2A905AF11D829C0400EC5C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DongtanTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongtanText.app/DongtanText";
+			};
+			name = Release;
+		};
+		2A905AF31D829C0400EC5C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DongtanTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DongtanText;
+			};
+			name = Debug;
+		};
+		2A905AF41D829C0400EC5C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DongtanTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DongtanText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A905ABA1D829C0400EC5C5D /* Build configuration list for PBXProject "DongtanText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A905AEA1D829C0400EC5C5D /* Debug */,
+				2A905AEB1D829C0400EC5C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A905AEC1D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A905AED1D829C0400EC5C5D /* Debug */,
+				2A905AEE1D829C0400EC5C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A905AEF1D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A905AF01D829C0400EC5C5D /* Debug */,
+				2A905AF11D829C0400EC5C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A905AF21D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A905AF31D829C0400EC5C5D /* Debug */,
+				2A905AF41D829C0400EC5C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A905AB71D829C0400EC5C5D /* Project object */;
+}
