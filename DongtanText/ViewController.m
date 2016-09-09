@@ -170,6 +170,7 @@
 #pragma scrollView代理
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     if (scrollView == _scrollView) {
+        
         NSInteger index = _scrollView.contentOffset.x/kScreenSize.width;
         UIButton *btn = [self.view viewWithTag:11 + index];
         [self buttonClick:btn];
