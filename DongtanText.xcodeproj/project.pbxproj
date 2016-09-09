@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9A9BC918A26117E1DF200E /* libPods-DongtanText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02621FDE30D9B32AF83B4732 /* libPods-DongtanText.a */; };
+		2A7812F21D82B28200569BEA /* CoustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7812F11D82B28200569BEA /* CoustomTableViewCell.m */; };
+		2A7812F91D82B57300569BEA /* tweetlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7812F81D82B57300569BEA /* tweetlistModel.m */; };
+		2A7812FC1D82C12900569BEA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7812FB1D82C12900569BEA /* WebViewController.m */; };
+		2A7812FF1D82D0B400569BEA /* tokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7812FE1D82D0B400569BEA /* tokenModel.m */; };
+		2A7813021D82D71900569BEA /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7813011D82D71900569BEA /* NSString+Height.m */; };
 		2A905AC41D829C0400EC5C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AC31D829C0400EC5C5D /* main.m */; };
 		2A905AC71D829C0400EC5C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AC61D829C0400EC5C5D /* AppDelegate.m */; };
 		2A905ACA1D829C0400EC5C5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AC91D829C0400EC5C5D /* ViewController.m */; };
@@ -15,6 +21,8 @@
 		2A905AD21D829C0400EC5C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A905AD01D829C0400EC5C5D /* LaunchScreen.storyboard */; };
 		2A905ADD1D829C0400EC5C5D /* DongtanTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905ADC1D829C0400EC5C5D /* DongtanTextTests.m */; };
 		2A905AE81D829C0400EC5C5D /* DongtanTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AE71D829C0400EC5C5D /* DongtanTextUITests.m */; };
+		2A905AFC1D82A23100EC5C5D /* CoustomSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AFB1D82A23100EC5C5D /* CoustomSession.m */; };
+		2A905AFF1D82A2A900EC5C5D /* MyTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A905AFE1D82A2A900EC5C5D /* MyTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02621FDE30D9B32AF83B4732 /* libPods-DongtanText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DongtanText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C5B2A1187B3F245AA48657 /* Pods-DongtanText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DongtanText.release.xcconfig"; path = "Pods/Target Support Files/Pods-DongtanText/Pods-DongtanText.release.xcconfig"; sourceTree = "<group>"; };
+		2A7812F01D82B28200569BEA /* CoustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoustomTableViewCell.h; sourceTree = "<group>"; };
+		2A7812F11D82B28200569BEA /* CoustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoustomTableViewCell.m; sourceTree = "<group>"; };
+		2A7812F71D82B57300569BEA /* tweetlistModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweetlistModel.h; sourceTree = "<group>"; };
+		2A7812F81D82B57300569BEA /* tweetlistModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tweetlistModel.m; sourceTree = "<group>"; };
+		2A7812FA1D82C12900569BEA /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		2A7812FB1D82C12900569BEA /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		2A7812FD1D82D0B400569BEA /* tokenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tokenModel.h; sourceTree = "<group>"; };
+		2A7812FE1D82D0B400569BEA /* tokenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tokenModel.m; sourceTree = "<group>"; };
+		2A7813001D82D71900569BEA /* NSString+Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
+		2A7813011D82D71900569BEA /* NSString+Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
 		2A905ABF1D829C0400EC5C5D /* DongtanText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DongtanText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A905AC31D829C0400EC5C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A905AC51D829C0400EC5C5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,12 @@
 		2A905AE31D829C0400EC5C5D /* DongtanTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongtanTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A905AE71D829C0400EC5C5D /* DongtanTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongtanTextUITests.m; sourceTree = "<group>"; };
 		2A905AE91D829C0400EC5C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A905AF91D82A12D00EC5C5D /* DongtanText-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DongtanText-PrefixHeader.pch"; sourceTree = "<group>"; };
+		2A905AFA1D82A23100EC5C5D /* CoustomSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoustomSession.h; sourceTree = "<group>"; };
+		2A905AFB1D82A23100EC5C5D /* CoustomSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoustomSession.m; sourceTree = "<group>"; };
+		2A905AFD1D82A2A900EC5C5D /* MyTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTool.h; sourceTree = "<group>"; };
+		2A905AFE1D82A2A900EC5C5D /* MyTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTool.m; sourceTree = "<group>"; };
+		FFE09BB9D2D5573B25772282 /* Pods-DongtanText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DongtanText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DongtanText/Pods-DongtanText.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9A9BC918A26117E1DF200E /* libPods-DongtanText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17DF752D39712D437B85A3D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02621FDE30D9B32AF83B4732 /* libPods-DongtanText.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A7812EF1D82B26C00569BEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A7812F01D82B28200569BEA /* CoustomTableViewCell.h */,
+				2A7812F11D82B28200569BEA /* CoustomTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2A7812F61D82B4AE00569BEA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2A7812F71D82B57300569BEA /* tweetlistModel.h */,
+				2A7812F81D82B57300569BEA /* tweetlistModel.m */,
+				2A7812FD1D82D0B400569BEA /* tokenModel.h */,
+				2A7812FE1D82D0B400569BEA /* tokenModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		2A905AB61D829C0400EC5C5D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +140,8 @@
 				2A905ADB1D829C0400EC5C5D /* DongtanTextTests */,
 				2A905AE61D829C0400EC5C5D /* DongtanTextUITests */,
 				2A905AC01D829C0400EC5C5D /* Products */,
+				AE742D0FA1937F4F8A5738A4 /* Pods */,
+				17DF752D39712D437B85A3D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +158,9 @@
 		2A905AC11D829C0400EC5C5D /* DongtanText */ = {
 			isa = PBXGroup;
 			children = (
+				2A7812F61D82B4AE00569BEA /* model */,
+				2A7812EF1D82B26C00569BEA /* View */,
+				2A905AF51D82A02700EC5C5D /* Tool */,
 				2A905AC51D829C0400EC5C5D /* AppDelegate.h */,
 				2A905AC61D829C0400EC5C5D /* AppDelegate.m */,
 				2A905AC81D829C0400EC5C5D /* ViewController.h */,
@@ -110,6 +170,8 @@
 				2A905AD01D829C0400EC5C5D /* LaunchScreen.storyboard */,
 				2A905AD31D829C0400EC5C5D /* Info.plist */,
 				2A905AC21D829C0400EC5C5D /* Supporting Files */,
+				2A7812FA1D82C12900569BEA /* WebViewController.h */,
+				2A7812FB1D82C12900569BEA /* WebViewController.m */,
 			);
 			path = DongtanText;
 			sourceTree = "<group>";
@@ -118,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				2A905AC31D829C0400EC5C5D /* main.m */,
+				2A905AF91D82A12D00EC5C5D /* DongtanText-PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +203,28 @@
 			path = DongtanTextUITests;
 			sourceTree = "<group>";
 		};
+		2A905AF51D82A02700EC5C5D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2A905AFA1D82A23100EC5C5D /* CoustomSession.h */,
+				2A905AFB1D82A23100EC5C5D /* CoustomSession.m */,
+				2A905AFD1D82A2A900EC5C5D /* MyTool.h */,
+				2A905AFE1D82A2A900EC5C5D /* MyTool.m */,
+				2A7813001D82D71900569BEA /* NSString+Height.h */,
+				2A7813011D82D71900569BEA /* NSString+Height.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		AE742D0FA1937F4F8A5738A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFE09BB9D2D5573B25772282 /* Pods-DongtanText.debug.xcconfig */,
+				06C5B2A1187B3F245AA48657 /* Pods-DongtanText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A905AEC1D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanText" */;
 			buildPhases = (
+				EF2D5EC243075E593FFB8397 /* [CP] Check Pods Manifest.lock */,
 				2A905ABB1D829C0400EC5C5D /* Sources */,
 				2A905ABC1D829C0400EC5C5D /* Frameworks */,
 				2A905ABD1D829C0400EC5C5D /* Resources */,
+				7C81700E7CF3802F19539875 /* [CP] Embed Pods Frameworks */,
+				E71EB705C11ACE3517AF4048 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +295,7 @@
 				TargetAttributes = {
 					2A905ABE1D829C0400EC5C5D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8FFS398TCK;
 					};
 					2A905AD71D829C0400EC5C5D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -265,14 +354,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C81700E7CF3802F19539875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DongtanText/Pods-DongtanText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E71EB705C11ACE3517AF4048 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DongtanText/Pods-DongtanText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF2D5EC243075E593FFB8397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A905ABB1D829C0400EC5C5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7812F21D82B28200569BEA /* CoustomTableViewCell.m in Sources */,
 				2A905ACA1D829C0400EC5C5D /* ViewController.m in Sources */,
+				2A7812FF1D82D0B400569BEA /* tokenModel.m in Sources */,
+				2A905AFF1D82A2A900EC5C5D /* MyTool.m in Sources */,
+				2A7813021D82D71900569BEA /* NSString+Height.m in Sources */,
+				2A7812FC1D82C12900569BEA /* WebViewController.m in Sources */,
+				2A905AFC1D82A23100EC5C5D /* CoustomSession.m in Sources */,
 				2A905AC71D829C0400EC5C5D /* AppDelegate.m in Sources */,
 				2A905AC41D829C0400EC5C5D /* main.m in Sources */,
+				2A7812F91D82B57300569BEA /* tweetlistModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +557,11 @@
 		};
 		2A905AED1D829C0400EC5C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE09BB9D2D5573B25772282 /* Pods-DongtanText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DongtanText/DongtanText-PrefixHeader.pch";
 				INFOPLIST_FILE = DongtanText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanText;
@@ -424,8 +571,11 @@
 		};
 		2A905AEE1D829C0400EC5C5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C5B2A1187B3F245AA48657 /* Pods-DongtanText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DongtanText/DongtanText-PrefixHeader.pch";
 				INFOPLIST_FILE = DongtanText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangheng.DongtanText;
@@ -498,6 +648,7 @@
 				2A905AEE1D829C0400EC5C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A905AEF1D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanTextTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +657,7 @@
 				2A905AF11D829C0400EC5C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A905AF21D829C0400EC5C5D /* Build configuration list for PBXNativeTarget "DongtanTextUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +666,7 @@
 				2A905AF41D829C0400EC5C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

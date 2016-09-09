@@ -1,0 +1,24 @@
+//
+//  DongtanText-PrefixHeader.pch
+//  DongtanText
+//
+//  Created by 王恒 on 16/9/9.
+//  Copyright © 2016年 wangheng. All rights reserved.
+//
+
+#ifndef DongtanText_PrefixHeader_pch
+#define DongtanText_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "MyTool.h"
+
+#define kURLStr @"https://www.oschina.net/"
+#define kScreenSize [UIScreen mainScreen].bounds.size
+
+#endif /* DongtanText_PrefixHeader_pch */
